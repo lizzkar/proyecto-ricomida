@@ -1,0 +1,179 @@
+.navbar {
+    background-color: #373A3C;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    font-size: 46px;
+    color: #FFFFFF;
+    margin-left: 150px;
+    width: 137px;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF !important;
+    padding: 19px;
+}
+
+.img-principal {
+
+    color: #373A3C;
+    padding: 2rem;
+}
+
+.texto-derecha {
+    text-align: left;
+}
+
+.btn {
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
+    font-size: 21px;
+    background-color: #FFFFFF;
+    color: #373A3C;
+}
+
+.receta {
+    color: #373A3C;
+    text-align: left;
+    margin-top: 50px;
+
+    border-bottom: 2px solid #000;
+}
+
+.titulo-destacado {
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 53px;
+    color: #373A3C;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    padding-bottom: 23.5px;
+}
+
+h2 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 26.6px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.col-img {
+    width: 233px;
+    height: 170px;
+}
+
+.card {
+    width: 316px;
+    height: 378px;
+}
+
+.container-base {
+    background-color: #DC3545;
+    color: #FFFFFF;
+    padding: 3rem;
+}
+
+.container-base .btn {
+    border-color: #fff;
+    color: #fff;
+}
+
+.marca {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.info {
+    text-align: center;
+}
+
+.p {
+    font-family: 'Cabin', sans-serif;
+    size: 20px;
+}
+
+.container-base p {
+    font-family: 'Cabin', sans-serif;
+    font-weight: normal;
+    font-size: 27px;
+}
+
+.container-base span {
+    font-family: 'Lobster', cursive;
+    font-size: 27px;
+}
+
+.sub-titulo {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-logo {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-bottom: 36px;
+
+}
+
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: black;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
